@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="lycwed-cordova-plugin-admob-mobfox"
+    version="1.0.0" 
+    xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <name>lycwed-cordova-plugin-admob-mobfox</name>
+    <description>Cordova AdMob Mediation Plugin for MobFox</description>
+
+    <engines>
+        <engine name="cordova" version=">=3" />
+    </engines>
+
+    <platform name="android">
+        <source-file src="src/android/MobFox-Android-SDK-Core-3.3.0.jar" target-dir="libs" />
+        <source-file src="src/android/MobFox-Android-AdMob-Adapter.jar" target-dir="libs" />
+    </platform>
+
+    <platform name="ios">
+        <header-file src="src/ios/GADMAdapterMobFox.h" />
+        <source-file src="src/ios/MobFoxSDKCore.framework" framework="true" />
+    </platform>
+</plugin>
