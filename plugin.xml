@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin id="lycwed-cordova-plugin-admob-mobfox"
-    version="1.0.0" 
+<plugin id="lycwed-cordova-plugin-admob-mobfox" version="1.0.1" 
     xmlns="http://apache.org/cordova/ns/plugins/1.0" 
     xmlns:android="http://schemas.android.com/apk/res/android">
 

@@ -1,6 +1,6 @@
 {
   "name": "lycwed-cordova-plugin-admob-mobfox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cordova AdMob Mediation Plugin for MobFox",
   "scripts": {
     "version": "sync-package-version --cordova-plugin"
@@ -16,16 +16,16 @@
   "author": "Lycwed",
   "license": "MIT",
   "keywords": [
-    "ecosystem:cordova",
     "cordova-android",
     "cordova-ios",
+    "cordova",
+    "plugin",
     "admob",
-    "inmobi",
-    "ad"
+    "mobfox",
+    "mediation"
   ],
-  "files": [
-    "*.md",
-    "*.xml",
-    "src"
-  ]
+  "bugs": {
+    "url": "https://github.com/lycwed/lycwed-cordova-plugin-admob-mobfox/issues"
+  },
+  "homepage": "https://github.com/lycwed/lycwed-cordova-plugin-admob-mobfox"
 }
