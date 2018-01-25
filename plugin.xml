@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin id="lycwed-cordova-plugin-admob-mobfox" version="1.0.1" 
-    xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+<plugin id="lycwed-cordova-plugin-admob-mobfox" version="1.0.2"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <name>lycwed-cordova-plugin-admob-mobfox</name>
@@ -13,6 +13,10 @@
     <platform name="android">
         <source-file src="src/android/MobFox-Android-SDK-Core-3.3.0.jar" target-dir="libs" />
         <source-file src="src/android/MobFox-Android-AdMob-Adapter.jar" target-dir="libs" />
+
+        <!-- Prevents compilation error: https://developer.android.com/studio/build/multidex.html -->
+        <!-- when add additional mediation plugins -->
+        <dependency id="cordova-plugin-multidex" />
     </platform>
 
     <platform name="ios">
